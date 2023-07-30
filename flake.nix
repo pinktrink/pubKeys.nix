@@ -43,6 +43,7 @@
           ];
           users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJmBkkqd1KRsyDVozP+SV1Wz4Jq+u/YY4EmUSF/F9Qql chloe@marla-aster ed25519 home age" ];
         };
+        chloe-pixel-6.users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC1Um3oSEEaDuMspWzAsBh64HiNWOxwonFoWPR0sFx2J" ];
       };
       hosts = concatLists (attrValues (mapAttrs (_: v: v.host or [ ]) self.pubKeys.keys));
       users = concatLists (attrValues (mapAttrs (_: v: concatLists (attrValues v.users or [ ])) self.pubKeys.keys));
