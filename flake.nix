@@ -34,7 +34,7 @@
             "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDqviAWKD5xAsR6BK6EcUR02kmoQyZfxbJebHXcMPKF1JA2sKYerhGf9Yhgmq+IDezR5YLGf1GEUE7NN5y2fgBNoIK6X4NpW3ttrC1pKSkq5swOvyEM4yU0W0VTOl1xut2XmfmBCeYgqSxiDze/W/Cgp+6azm2BgG/eJtAsEJzI/W7Op35YA0c1vegsXO2qewXdLqcqkFqok9PJdmh3RVlWxWtx9xcrb5CwrUqHHOiXV15WUvrIqb0ws3VE9rpq//23zaCdLmNkCgO+ISR6Gk3HZOAQp7BzXfPvNoRZvYxZ9ZgdopRHtE2OWVdN8WC2DU+tdwUZGGBDO6ao0LP3ElXWEBYtzaZUtkoL8aIRDrAC8hOWl/DS31kMDfsB2AkqHarK1DwJqyvae3N7Ac8vuGafbXWAyWHeDJMb3idpOKwH99kAMlQ4VoADvqM/evJ9d0q744u9Ymh8VE/ANe6WsesR5MvGWrpl4ljwSwKgwjB45tSx0Vz23c9w/E2IuM071AOpS9KU49b1anl42hGESfcZbfm06aOI/TJhV4IYUj4W7ZAdn8ajp0YidWQ2Czgix+a/Pkf6jukNr/f/L6/gE/J7/8BEJyI6MPh21zOjH3ME6fG96mc/0GcnJFmh9fUZvDifLSA2ME1FhcCHrMaNYL9SUtjTDSA2H+PIlxzJRV511w== rsa age nccd"
             "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIG/RyVYMCgNltID660aOYpcupKMaLbGRbKfi+VErt4B/ ed25519 age nccd"
           ];
-          users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFgPiKbb1NfTbHNK8+XTYQ6CeAUlMcB+ukqyww1owU4s chloe@lwaxan ed25519 home age" ];
+          users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFgPiKbb1NfTbHNK8+XTYQ6CeAUlMcB+ukqyww1owU4s chloe@lwaxana ed25519 home age" ];
         };
         marla-aster = {
           host = [
