@@ -11,6 +11,13 @@
       users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBhiyE9bWby5TFXruner51NhKMQ3BPU0c038J6Aw2rD9 ed25519 git platonic home age" ];
     };
     freyja-windows.users.chloe = [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBinOSa3sbVs4rkNN7hlhrr08iZOqhC/sFdMcbPnYRhR8bbAJ9ZuiQlmU13EjXUQWkaU2Phz/6psxCVzEObPfZCRT3Z7O0EegS2RDdey18VZJK/QOM5H+/owTas7VWV4mJ5yZ0IowrHzRHPqKqUg1hzYOuHS4uigZ4DLJFfhMHrFIRpzewXEIIKBaafzCvb+aRiXpjFUVeVmDXXC6zAiCUFhISf2Mr4Ls7+AoExNKdvbC8WigiJNSwvEwmROrii4wphszYtmXJa1J9Sm29noReNoT0V7ddjIqa9AVE1n6yEfIr69rIbJ6gXQMBQBWI0FdwiUcmWBwXMkz3kjuURfnJ rsa-key-20240824" ];
+    thrud = {
+      host = [
+        "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDk8haEXWsp0DpEM3aXWaLJP5WQV/wLleuJ75LVVEe8iFU2YgrLKcmJ/8hLg3NaboSBv8fqwPDuvSLwOHzOSMCJbOmnJb3MqVb30ogE6//UopT5Di1U3vVuAnJH6ZjqVKS06Pn3lg+rBCru8qZ7Ki9p50GpKDO6/jlzxa73nQeTaTVA/9fSo/I4l29fJBz5YMt18ej3yR4m8UKbBDUWBxKMYikYZGwUoqzvA4nva/h+hegHucyy4LZsesJiesGHdrPviQBypLcubp49AGkoMLUysgaeq4wyATX2xfHOzqZcAPyWz42ugKwJUqokPcDJGyK5YFScDUvZJsFOQkZwWvhHk6/nMkgccCmLxLNIj3zfPHMZ0ElouqqlTXNh/kM9+seRcP+Uom+h48wU4PdilAFZknvRXnTKYa2tm4v6IVrOOvRWeyMKkR/7bfJr7IxEqkgbC59hK60AaytLH7euAJMB1AbgdbfZqvkgWRhb+wbXkdEKNpFKMLRz7OIbIT5zPz9VLdLTTKzTymDUTjAW4stTktt+nmf5djyFKvzz7jT3GOaKjGP1QFXPFqKqLkSZIIACiePJcbxwxR2DC9osv+1QvCFwQxHGDINJTZGbuGftiY41sv2dLVNV0L3nXq4Q0ukVytAEogvqS/OwesRL7VMmx4U77O+3knSBrbXAfVunmQ== rsa age"
+        "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH9OXYDTYd/ui89P7pgg+uqOw6aM4joROn9X98PQPi76 ed25519 age"
+      ];
+      users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAXYf519d8XcQcRNDvG4gdnbmII1RXeyJ3MEHNVoFFpB ed25519 git platonic home age" ];
+    };
     amanda-rogers.users.chloe = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPAK1kucW99XBPWL9kg823TjsmNZOq4FQ1RMd1bEfUuz ed25519 home age nccd" ];
     guinan = {
       host = [
