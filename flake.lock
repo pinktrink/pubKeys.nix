@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1741138126,
-        "narHash": "sha256-syCOwjYvkuhBMYfWJvwhl6u2tHq+uIido3FhGQXlBIE=",
+        "lastModified": 1769015738,
+        "narHash": "sha256-DcS1bdtU6qoCY+U681uHtSwU+vp4LPr0LBpGB4qJAKA=",
         "owner": "pinktrink",
         "repo": "keyFlake.nix",
-        "rev": "c8c692ecf3f83b30addd6a9d18eb98e3ed53cceb",
+        "rev": "d1d910981ceb2502a59f39d5fe657436645b058f",
         "type": "github"
       },
       "original": {
