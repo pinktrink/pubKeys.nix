@@ -17,6 +17,7 @@
       ];
       users.chloe.ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINMUkZZnDOPSUi014cG/6nspo1L5E6hCWx0N/swJ7fww git platonic home age" ];
     };
+    tendi.users.chloe.ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOZ1cR5tf1kvJrw9itfpt3zwK52Z0ccGuQe3Hgcw9CDE home nccd" ];
     amanda-rogers.users.chloe.ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPAK1kucW99XBPWL9kg823TjsmNZOq4FQ1RMd1bEfUuz ed25519 home age nccd" ];
     guinan = {
       host.ssh = [
