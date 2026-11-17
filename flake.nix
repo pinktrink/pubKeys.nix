@@ -15,7 +15,29 @@
         "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCnqB9SmmEgoJzLC2WchYicCC+ZHP1geOiyEC8GAMiAHlf5uw1SuX9rSUYbU04ynwpMPYMzmpBSCV/lUNYldfnQydu5ZzcpjlnshpMaVbzfrIu2tLWY8KzXaOun5M4CtHo/Q4nLOBBSBbCPOdhoNqbbpRNcZlounG9A5/EzKWRojdX2bxC9B773LwORO7/Nrq6pshS1XQ1NK/bzRJpQy9Mch2xT9VXiCCO6AW8Xc/QAaHh9hvnIM2174IjppdPn4CsSH2SJKB9KGWPP9Gz7fNNiYRjdv3G9qoLUCOPF359GkYQ/brMBOWDURiqL67xW7uKk4UQ4dgoWUwb1QLY85DGyGBbSWeCw3V90O/Zj5N+KtgxzL8eHOARo+nmiUEQWyf+31KPQWuKk/QkRSK6noXkEOoL3YU61Tcwkrabnnd40lIAdU/27usOv09R6tsd4YPr3oGaZRPJyQIOAQNusl3rRZ2EpXqE/mODsD0+ukH8eH1t4CMlCxH2CvsccJuxEtSX1MSQKCt78OwCnRVqLlihksTs0ZQE3+FiNTph8MUYdJJJB1VBUmx2oF56MFXTDTFKKM4y28IPVr4jGWQVuQyKqtwB6aarj60AuQGhfBo3uBq9kc/CyLAcUACZfNXdf3rKIcCx3HV73qNU30uQgrK6Gm7F/rdWMaP9nF7N/W9ATfQ== rsa age"
         "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICeadK6jJvuzcNsBMwhVXGH+keuW9hqFHPWxsuZNNFik ed25519 age"
       ];
-      users.chloe.ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINMUkZZnDOPSUi014cG/6nspo1L5E6hCWx0N/swJ7fww git platonic home age" ];
+      users.chloe = {
+        ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINMUkZZnDOPSUi014cG/6nspo1L5E6hCWx0N/swJ7fww git platonic home age" ];
+        gpg = [
+          ''
+            -----BEGIN PGP PUBLIC KEY BLOCK-----
+            mDMEavzF6BYJKwYBBAHaRw8BAQdAoLnVq2xHmIcMI35dzWjJJuskTY0cCcS3BLVt
+            Xk73xR20JUNobG9lIEtldmVyIDxjaGxvZUBwcmluY2Vzc2NobG9lLmNvbT6IjgQT
+            FgoANhYhBAGAgVqiKUr3q2jf5odZhHC20cQBBQJq/MXoAhsDBAsJCAcEFQoJCAUW
+            AgMBAAIeAQIXgAAKCRCHWYRwttHEAYddAP4yJcFp/LsWoT4fZAQimdJa5FIjeIFc
+            jyZlKf5jtGABtAD/W/IS1gdsu01gPouB/wG88UN8rhpp5DTkwIA1+VOLMAS0JUNo
+            bG9lIEtldmVyIDxhZG1pbkBwcmluY2Vzc2NobG9lLmNvbT6IjgQTFgoANhYhBAGA
+            gVqiKUr3q2jf5odZhHC20cQBBQJq/MYvAhsDBAsJCAcEFQoJCAUWAgMBAAIeAQIX
+            gAAKCRCHWYRwttHEAbXYAQC6sFt/4Hp47zWzSAsujaJiFWsCId6vUVO7PDxaSwR/
+            FQEA58NeuHOd4urrCpZO2J2UvSYq+J7ivwYrLQbdPIRRugy4OARq/MXoEgorBgEE
+            AZdVAQUBAQdAkCIXXmJdLMp6eOEXFjzXBmcZpeMmu3c9pkX0y9N4t0wDAQgHiHgE
+            GBYKACAWIQQBgIFaoilK96to3+aHWYRwttHEAQUCavzF6AIbDAAKCRCHWYRwttHE
+            AXylAQDq7SnYWMYJfLcIZwwAuFTqhdbleBwa5q4FpV9Royya+wD/VuC/3G/+6R8S
+            Hd49cY4H9XtD/BRq8t0HV+XM/lgWvQ4=
+            =CjsY
+            -----END PGP PUBLIC KEY BLOCK-----
+          ''
+        ];
+      };
     };
     tendi.users.chloe.ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOZ1cR5tf1kvJrw9itfpt3zwK52Z0ccGuQe3Hgcw9CDE home nccd" ];
     amanda-rogers.users.chloe.ssh = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPAK1kucW99XBPWL9kg823TjsmNZOq4FQ1RMd1bEfUuz ed25519 home age nccd" ];
